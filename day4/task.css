@@ -1,0 +1,63 @@
+.rr{
+    display:flex;
+    
+   justify-content: center;
+   
+}
+.vv{
+    background-color: whitesmoke;
+    margin-left: 15px;
+   padding: 8px;
+   border-radius: 5px;
+}
+.ss{
+    display: flex;
+    height: 55Spx;
+    color: white;
+     background-color: green;
+
+}
+.qq{
+    padding-right: 410px;
+    
+}
+img{
+    
+   justify-content: start;
+    border-radius: 80px;
+    
+}
+.ww{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+button{
+    background-color: yellow;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.ee{
+    height: 100px;
+    width: 70px;
+    
+}
+.yy{
+    display: flex;
+    background-color:red;
+    color: white;
+}
+.hh{
+    padding-right: 90px;
+}
+.gg{
+    padding-right: 300px;
+}
+.ff{
+    margin-right: 70px;
+    width: 150px;
+   
+}
