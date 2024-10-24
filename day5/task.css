@@ -1,0 +1,39 @@
+.tt{
+    background-color: aqua;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 30px;
+    text-align: center;   
+}
+.h1{
+    background-color:blueviolet;
+    border: 1px solid black;
+    flex-grow:1;
+    flex-shrink: 1;
+    flex-basis: 500px;
+   
+}
+.h2{
+    background-color:brown;
+    border: 1px solid black;
+    flex-grow:1;
+    flex-shrink: 2;
+    flex-basis: 500px;
+   
+}
+.h3{
+    background-color: darkgreen;
+    border: 1px solid black;
+    flex-grow:1;
+    flex-shrink: 3;
+    flex-basis: 500px;
+}
+.h4{
+    background-color: darkorange;
+    border: 1px solid black;
+    flex-grow:1;
+    flex-shrink: 1;
+
+}
