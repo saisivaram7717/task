@@ -13,6 +13,7 @@
     flex-grow:1;
     flex-shrink: 1;
     flex-basis: 500px;
+    color: black;
    
 }
 .h2{
@@ -21,19 +22,22 @@
     flex-grow:1;
     flex-shrink: 2;
     flex-basis: 500px;
+    
    
 }
 .h3{
-    background-color: darkgreen;
+    background-color:gray;
     border: 1px solid black;
     flex-grow:1;
     flex-shrink: 3;
     flex-basis: 500px;
+    color: black;
 }
 .h4{
     background-color: darkorange;
     border: 1px solid black;
     flex-grow:1;
     flex-shrink: 1;
+    color: black;
 
 }
