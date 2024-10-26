@@ -1,0 +1,40 @@
+.header{
+    border: 3px solid black;
+    background: linear-gradient( rgba(24, 118, 143, 0.87),rgb(199, 86, 86));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+color: white;
+}
+.headingright{
+  font-size: 20px;
+ display: flex;
+ gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.bodycontent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: space-around;
+    
+}
+.card{
+    border: 2px solid black;
+    width: 450px;
+    height: 300px;
+    text-align: center;   
+}
+.footer{
+    border: 3px solid black;
+    background: linear-gradient( rgba(24, 118, 143, 0.87),rgb(199, 86, 86));
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
