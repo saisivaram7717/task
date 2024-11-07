@@ -1,6 +1,6 @@
 .header{
     border: 3px solid black;
-    background: linear-gradient( rgba(24, 118, 143, 0.87),rgb(199, 86, 86));
+    background: linear-gradient(rgba(24, 118, 143, 0.87),rgb(199, 86, 86));
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,5 +36,8 @@ a{
     width: 100%;
     text-align: center;
     color: white;
+}
+.cars{
+    text-decoration: underline;
 }
 

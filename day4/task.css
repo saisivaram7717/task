@@ -6,9 +6,9 @@
 }
 .vv{
     background-color: whitesmoke;
-    margin-left: 15px;
+    margin-left:15px;
    padding: 8px;
-   border-radius: 5px;
+   /* border-radius: 5px; */
 }
 .ss{
     display: flex;
