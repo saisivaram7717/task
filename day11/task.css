@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+  }
+  body {
+    background-color: aliceblue;
+    border: 2px solid rgb(5, 3, 3);
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .doggle {
+    display: none;
+  }
+  .doggle-entity {
+    display: none;
+  }
+  @media screen and (max-width: 400px) {
+    body {
+      background-color: aqua;
+    }
+    .parent {
+      background-color: aquamarine;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      align-items: center;
+    }
+    .child-1 {
+      display: none;
+      align-items: center;
+      gap: 20px;
+      position: absolute;
+      top: 40px;
+      background-color: black;
+      color: white;
+      flex-direction: column;
+  
+      width: 100%;
+    }
+    .doggle:checked ~ .child-1 {
+      display: flex;
+    }
+    .doggle-entity {
+      display: block;
+    }
+  
+    img {
+      display: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  }
+  
+  @media (min-width: 401px) and (max-width: 800px) {
+    body {
+      background-color: red;
+    }
+    .parent {
+      background-color: aquamarine;
+    }
+    .child {
+      display: flex;
+      justify-content: center;
+    }
+    .child-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 20px;
+      font-size: 22px;
+    }
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 1200px) {
+    body {
+      background-color: skyblue;
+    }
+    .parent {
+      display: flex;
+      gap: 140px;
+      background-color: aquamarine;
+      justify-content: space-evenly;
+    }
+    .child-1 {
+      gap: 30px;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
+      justify-content: space-between;
+    }
+    .child {
+      display: flex;
+      align-items: center;
+    }
+  }
+  @media (min-width: 1200px) {
+    body {
+      background-color: yellow;
+    }
+    .parent {
+      display: flex;
+      justify-content: space-around;
+      background-color: aquamarine;
+    }
+    .child-1 {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      gap: 30px;
+      font-size: 30px;
+    }
+    .child {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
